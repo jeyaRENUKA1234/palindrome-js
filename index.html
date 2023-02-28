@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>palindrome</title>
+	</head>
+	<body>
+		<script>
+		//palindrome//
+     var a=prompt("enter the content");
+	 var d=a;
+     var c=0;
+	 while(a>0){
+	 b=a%10;
+	 a=(a-b)/10;
+	 c=c*10+b;
+	 }
+	 console.log(a);
+	 if(c==d){
+	 console.log(`${d} is a palindrome`);
+	 }
+	 else{
+	 console.log(`${d} not a palindrome`);
+	 }
+   </script>
+   </body>
+   </html>
